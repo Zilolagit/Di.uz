@@ -1,0 +1,33 @@
+{
+    "header" : {
+        "menu1": "About",
+        "menu2": "Projects",
+        "menu3": "Career",
+        "menu4": "News",
+        "menu5": "Contacts"
+    },
+    "phone" : {
+        "text": "WE WILL CALL YOU BACK",
+        "desc": "Leave your number and we will call you back.",
+        "name": "Your name",
+        "phone": "Phone number",
+        "department": {
+            "option1" : "Sales department",
+            "option2": "Human Resources Department",
+            "option3": "Financial department",
+            "option4": "Accounting",
+            "option5": "Purchasing department",
+            "option6": "Office"
+        },
+        "btn": "Send",
+        "textPop": "Your Message is delivered successfully",
+        "error": "A Problem Occured",
+        "btnPop" : "Ok"
+    },
+    "hero" : {
+        "text": "Perfection in everything",
+        "title": "DISCOVER INVEST",
+        "projects": "Projects",
+        "contact": "Contacts"
+    }
+}
