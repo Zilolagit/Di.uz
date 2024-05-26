@@ -26,8 +26,125 @@
     },
     "hero" : {
         "text": "Perfection in everything",
-        "title": "DISCOVER INVEST",
+        "title": "Discover Invest",
         "projects": "Projects",
         "contact": "Contacts"
+    },
+    "about" : {
+        "desc" : "We don't just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for the environmental aspects related to the construction and operation of buildings and infrastructure.",
+        "employee" : "The number of employees",
+        "complex": "Residential complexes",
+        "market" : "14 years on marketplace",
+        "about" : "About",
+        "hospital" : "Hospitals",
+        "special": "Special techniques  recuperated",
+        "projects": "Projects"
+    },
+    "advantages" : {
+        "text1": "Our",
+        "text2": "advantages",
+        "icon1": {
+            "text": "Our team",
+            "desc": "The company recruits experienced employees on a competitive basis"
+        },
+        "icon2": {
+            "text": "Positive customer approach",
+            "desc": "By looking at the great work we have done through our website, you will be sure that we have earned the trust of our customers"
+        },
+        "icon3": {
+            "text": "All work guaranteed",
+            "desc": "We perform our mission carefully and appreciate your belief in our company All mistakes were clearly corrected"
+        }
+    },
+    "team" : {
+        "text1": "Our",
+        "text2": "Team",
+        "person1": {
+            "name": "Norbekov Shavkat Bo'riboy o'g'li",
+            "job" : "Construction site supervisor"
+        },
+        "person2": {
+            "name": "Boltaev Obidjon Uchqin o'g'li",
+            "job" : "Project Manager"
+        },
+        "person3": {
+            "name": "Artiqbaev Saxobiddin Doniyor o'g'li",
+            "job" : "Project Manager"
+        },
+        "person4": {
+            "name": "Kuziev Jakhongir Bakhodirovich",
+            "job" : "Construction site supervisor"
+        },
+        "person5": {
+            "name": "Xusanov Akromjon Turaxon o'g'li",
+            "job" : "Project Manager"
+        }
+    },
+    "project" : {
+        "text1" : "Our",
+        "text2" : "Projects",
+        "btn": "All projects",
+        "card1": {
+            "text": "Magic City",
+            "desc": "This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions."
+        },
+        "card2": {
+            "text": "Gardens Residence",
+            "desc": "Multifunctional residential complex created to provide comfort to the residents of Uzbekistan."
+        },
+        "card3": {
+            "text": "Fonon",
+            "desc": "A grandiose residential area in the heart of the capital."
+        },
+        "card4": {
+            "text": "Invento",
+            "desc": "Fonon is a jewelry production plant in Uzbekistan built on the basis of Italian ones in 2020. Fonon is the only large enterprise in Central Asia producing jewelry from precious metals in European and Oriental styles,"
+        },
+        "card5": {
+            "text": "Presidential School",
+            "desc": "International kindergarten and school located in the international business center of Tashkent City."
+        },
+        "card6": {
+            "text": "Boulevard",
+            "desc": "This is an educational institution that provides knowledge at an international level"
+        }
+    },
+    "company" : {
+        "text1" : "Company",
+        "text2" : "news",
+        "newsBtn" : "Read more",
+        "news1" : {
+            "title": "Who is the project manager of construction?"
+        },
+        "news2" : {
+            "title": "Discover Invest congratulates everyone on a coming Happy New Year 2023!"
+        },
+        "news3" : {
+            "title": "THE DAY WHEN THE CONSTITUTION OF THE REPUBLIC OF UZBEKISTAN WAS ADOPTED"
+        },
+        "news4" : {
+            "title": "We continue to introduce you to Discover Invest's wide range of construction properties."
+        }
+    },
+    "footer" : {
+        "text": "Contacts",
+        "address" : {
+            "text": "Address",
+            "desc" : "Uzbekistan, Tashkent, National Park of Uzbekistan named after Alisher Navoi"
+        },
+        "phone" : {
+            "text": "Phone"
+        },
+        "hours" : {
+            "text": "Working hours",
+            "desc": "09:00 - 18:00 Mon-Sat"
+        },
+        "form": {
+            "label1" : "Phone number",
+            "label2" : "Name",
+            "place": "What is your name ?",
+            "btn": "Feedback"
+        },
+        "copy": "© 2022 Discover Invest. All rights reserved."
     }
 }

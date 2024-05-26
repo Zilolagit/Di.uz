@@ -31,7 +31,7 @@
                     <option :value="$t('phone.department.option5')">{{ $t('phone.department.option5') }}</option>
                     <option :value="$t('phone.department.option6')">{{ $t('phone.department.option6') }}</option>
                 </select>
-                <button type="submit" data-bs-dismiss="offcanvas" class="shadow__btn">{{ $t('phone.btn') }}</button>
+                <button type="submit" class="shadow__btn">{{ $t('phone.btn') }}</button>
             </form>
         </div>
     </div>

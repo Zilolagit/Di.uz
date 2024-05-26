@@ -76,14 +76,14 @@
   </header>
   <!-- Header End -->
 
-  <RouterView/>
+  <RouterView />
 
-  <div class="menu d-lg-none" :class="{'menu-open' : isOpen}">
+  <div class="menu d-lg-none" :class="{ 'menu-open': isOpen }">
     <ul class="menu__list">
-      <li class="menu__item" >
+      <li class="menu__item">
         <RouterLink to="/" @click="isOpen = false">{{ $t("header.menu1") }}</RouterLink>
       </li>
-      <li class="menu__item" >
+      <li class="menu__item">
         <RouterLink to="/" @click="isOpen = false">{{ $t("header.menu2") }}</RouterLink>
       </li>
       <li class="menu__item">
@@ -100,7 +100,87 @@
     </ul>
   </div>
 
-  <PhoneFloat/>
+  <PhoneFloat />
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer__title">
+            <div class="title">
+              <h3 class="title__first">
+                {{ $t('footer.text') }}
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer__icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="footer__card">
+                  <h4>{{ $t('footer.address.text') }}</h4>
+                  <p>{{ $t('footer.address.desc') }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer__icon">
+                <i class="fa-solid fa-phone"></i>
+                <div class="footer__card">
+                  <h4>{{ $t('footer.phone.text') }}</h4>
+                  <p>+998 71 288 88 88</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer__icon">
+                <i class="fa-solid fa-clock"></i>
+                <div class="footer__card">
+                  <h4>{{ $t('footer.address.text') }}</h4>
+                  <p>{{ $t('footer.hours.desc') }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="footer__social">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          </ul>
+          <div class="footer__form mb-5 mb-lg-0">
+            <form>
+              <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                  <input type="tel" id="inputPhone" class="form-control form-control-lg footer__call" aria-describedby="inputNumber" placeholder="+998" required>
+                </div>
+                <div class="col-md-5 mb-4 mb-md-0">
+                  <input type="tel" id="inputName" class="form-control form-control-lg " aria-describedby="inputNumber" required :placeholder="$t('footer.form.place')">
+                </div>
+                <div class="col-md-3 d-flex">
+                    <button class="footer__submit">{{ $t('footer.form.btn') }}</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98121.86133060585!2d64.3403966558286!3d39.77763909783666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50060e65993cd5%3A0xc87beaf40e48e767!2z0JHRg9GF0LDRgNCwLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1716748732582!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5 pb-3">
+        <div class="col-sm-6 col-md-4 text-center mb-4 mb-sm-0 text-sm-start">
+          <div class="footer__logo">
+            <img src="/footerLogo.svg" alt="footerLogo">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 text-center">
+          <p class="footer__copy">{{ $t('footer.copy') }}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </template>
 
@@ -186,22 +266,27 @@ a {
   transition: all .5s ease;
   transform: translateY(110px);
   height: 100vh;
+
   &-open {
     transition: all .5s ease;
     max-height: 100vh;
     height: 100vh;
   }
+
   &__item {
     margin-bottom: 10px;
+
     a {
       color: $black;
       font-size: 25px;
       font-weight: 500;
     }
+
     a.router-link-exact-active {
       color: $yellow;
     }
   }
+
   &__list {
     padding: 30px;
   }
@@ -363,79 +448,166 @@ a {
 }
 
 .shadow {
-    width: 40px;
-    height: 40px;
-    border-radius: 0;
-    background-color: $yellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background-color: $yellow;
+  color: #fff;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  i {
     color: #fff;
+  }
+
+  a {
+    width: 100%;
+    height: 100%;
+    position: relative;
     display: flex;
-    font-size: 15px;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    i {
-      color: #fff;
-    }
-    a {
+
+    &::before {
+      position: absolute;
+      content: '';
       width: 100%;
       height: 100%;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      &::before {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        border: inherit;
-        top: 0;
-        left: 0;
-        z-index: 0;
-        border: 1px solid $yellow;
-        background: transparent;
-        border-radius: inherit;
-        -webkit-animation: pulsing 2.5s linear infinite;
-        animation: pulsing 2.5s linear infinite;
-      }
-      &::after {
-        animation: pulsing1 2.5s linear infinite;
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 100%;
-        border: inherit;
-        top: 0;
-        left: 0;
-        z-index: 0;
-        border: 1px solid $yellow;
-        background: transparent;
-        border-radius: inherit;
+      border: inherit;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      border: 1px solid $yellow;
+      background: transparent;
+      border-radius: inherit;
+      -webkit-animation: pulsing 2.5s linear infinite;
+      animation: pulsing 2.5s linear infinite;
+    }
+
+    &::after {
+      animation: pulsing1 2.5s linear infinite;
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      border: inherit;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      border: 1px solid $yellow;
+      background: transparent;
+      border-radius: inherit;
+    }
+  }
+}
+
+// Footer Styles
+
+.footer {
+  background-image: url(/bg-footer.png);
+  background-position: left bottom;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  &__form {
+    padding: 30px 30px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    label {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    input {
+      font-size: 15px;
+      border-radius: 0px;
+      padding: 12px 20px;
+    }
+  }
+  &__call {
+    background-image: url(/uz.png);
+      background-position: 20px ;
+      padding-left: 55px !important;
+      background-size: 24px;
+      background-repeat: no-repeat;
+  }
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__submit {
+    border: none;
+    background-color: $yellow;
+    color: #fff;
+    // padding: 15px 25px;
+    width: 100%; 
+    // padding-left: 10px;
+    // padding-right: 10px;
+  }
+  &__social {
+    display: flex;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    a {
+      font-size: 18px;
+      color: #262524;
+      transition: all .3s ease;
+      &:hover {
+        color: $yellow;
       }
     }
   }
-
+  &__map {
+    iframe {
+      width: 100%;
+    }
+  }
+  &__icon {
+    display: flex;
+    gap: 30px;
+    i {
+      font-size: 25px;
+      color: $yellow;
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+    p {
+      color: rgba(38, 37, 36, 0.38);
+      font-size: 14px;
+    }
+  }
+  &__copy {
+    color: #262524;
+  }
+}
 
 @keyframes pulsing1 {
   0% {
     opacity: 1;
     transform: scaleY(1) scaleX(1);
-}
-20% {
+  }
+
+  20% {
     opacity: 0.5;
-}
-70% {
+  }
+
+  70% {
     opacity: 0.5;
     transform: scaleY(1.2) scaleX(1.2);
-}
-80% {
+  }
+
+  80% {
     opacity: 0;
     transform: scaleY(1.2) scaleX(1.2);
-}
-90% {
+  }
+
+  90% {
     opacity: 0;
     transform: scaleY(1) scaleX(1);
-}
+  }
 }
 
 @keyframes pulsing {
@@ -443,26 +615,29 @@ a {
     opacity: 1;
     -webkit-transform: scaleY(1) scaleX(1);
     transform: scaleY(1) scaleX(1);
-}
+  }
 
-20% {
+  20% {
     opacity: 0.5;
-}
-70% {
+  }
+
+  70% {
     opacity: 0.5;
     -webkit-transform: scaleY(1.4) scaleX(1.4);
     transform: scaleY(1.4) scaleX(1.4);
-}
-80% {
+  }
+
+  80% {
     opacity: 0;
     -webkit-transform: scaleY(1.4) scaleX(1.4);
     transform: scaleY(1.4) scaleX(1.4);
-}
-90% {
+  }
+
+  90% {
     opacity: 0;
     -webkit-transform: scaleY(1) scaleX(1);
     transform: scaleY(1) scaleX(1);
-}
+  }
 }
 
 /* Media Styles */
@@ -484,6 +659,27 @@ a {
     padding-top: 20px;
     padding-bottom: 0px;
   }
+  .footer {
+    padding-top: 30px;
+    &__map {
+      iframe {
+        height: 250px !important;
+      }
+    }
+  }
 }
 
+@media (max-width: 992px) {
+  .footer {
+    &__map {
+      iframe {
+        height: 350px;
+      }
+    }
+    &__submit {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
 </style>
