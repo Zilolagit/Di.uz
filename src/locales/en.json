@@ -113,17 +113,23 @@
         "text1" : "Company",
         "text2" : "news",
         "newsBtn" : "Read more",
+        "related": "Related News",
         "news1" : {
-            "title": "Who is the project manager of construction?"
+            "title": "Who is the project manager of construction?",
+            "desc": "Discover Invest has several construction project managers. This is the specialist responsible for the successful sale of real estate building. Directs the entire process, from the stage of planning and approval of project documentation to the commissioning of the building and performs post-project support as well."
+
         },
         "news2" : {
-            "title": "Discover Invest congratulates everyone on a coming Happy New Year 2023!"
+            "title": "Discover Invest congratulates everyone on a coming Happy New Year 2023!",
+            "desc": "Discover Invest has several construction project managers. This is the specialist responsible for the successful sale of real estate building. Directs the entire process, from the stage of planning and approval of project documentation to the commissioning of the building and performs post-project support as well. "
         },
         "news3" : {
-            "title": "THE DAY WHEN THE CONSTITUTION OF THE REPUBLIC OF UZBEKISTAN WAS ADOPTED"
+            "title": "THE DAY WHEN THE CONSTITUTION OF THE REPUBLIC OF UZBEKISTAN WAS ADOPTED",
+            "desc": "Discover Invest has several construction project managers. This is the specialist responsible for the successful sale of real estate building. Directs the entire process, from the stage of planning and approval of project documentation to the commissioning of the building and performs post-project support as well. "
         },
         "news4" : {
-            "title": "We continue to introduce you to Discover Invest's wide range of construction properties."
+            "title": "We continue to introduce you to Discover Invest's wide range of construction properties.",
+            "desc": "Discover Invest has several construction project managers. This is the specialist responsible for the successful sale of real estate building. Directs the entire process, from the stage of planning and approval of project documentation to the commissioning of the building and performs post-project support as well. "
         }
     },
     "footer" : {
@@ -146,5 +152,37 @@
             "btn": "Feedback"
         },
         "copy": "© 2022 Discover Invest. All rights reserved."
+    },
+    "aboutPage": {
+        "text": "ABOUT COMPANY",
+        "desc": "We don't just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment:",
+        "download" : "Download",
+        "company" : {
+            "text1": "About",
+            "text2": "company",
+            "desc": "We don't just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for the environmental aspects related to the construction and operation of buildings and infrastructure."
+        }
+    },
+    "mission" : {
+        "card1": {
+            "text": "Our mission",
+            "desc": "Our mission We introduce the most advanced technologies in construction in Uzbekistan and create modern design solutions. Relying on first-class workers, we build affordable housing and industrial buildings for many years."
+        },
+        "card2": {
+            "text": "Our Vision",
+            "desc": "Creation of the best project company in Central Asia, which provides an opportunity to: - Society - to improve the standard of living of people by setting high standards in work. - Clients - to enjoy joint activities, to build long-term and open relationships. - Employees - constant growth,"
+        },
+        "card3": {
+            "text": "Our values",
+            "desc": "Our values Since the founding (LLC) 'Discover Invest' in 2008, we have been working only with professionals. Our specialists use advanced technologies and an innovative approach to business.Regardless of the time and place of operation, we remain committed to our values: staff and safety, continuous improvement and the trust of our customers."
+        }
+    },
+    "contact": {
+        "text": "CONTACTS",
+        "desc": "Leave your contacts by filling out the current form and we will contact you as soon as possible.",
+        "main1": "How we can",
+        "main2": "help?",
+        "detail": "Leave your contacts by filling out the current form and we will contact you as soon as possible.",
+        "comment": "Leave a comment here"
     }
 }

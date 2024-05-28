@@ -1,3 +1,188 @@
 {
-    
+    "header" : {
+        "menu1": "Haqimizda",
+        "menu2": "Loyihalar",
+        "menu3": "Karyera",
+        "menu4": "Yangilik",
+        "menu5": "Aloqa"
+    },
+    "phone" : {
+        "text": "BIZ SIZGA QAYTA QOʻNGʻIROQ QILAMIZ",
+        "desc": "Raqamingizni qoldiring va biz sizga qayta qoʻngʻiroq qilamiz.",
+        "name": "Ismingiz",
+        "phone": "Telefon raqami",
+        "department": {
+            "option1" : "Savdo boʻlimi",
+            "option2": "Kadrlar boʻlimi",
+            "option3": "Moliya boʻlimi",
+            "option4": "Buxgalteriya",
+            "option5": "Xarid boʻlimi",
+            "option6": "Ofis"
+        },
+        "btn": "Yuborish",
+        "textPop": "Xabaringiz muvaffaqiyatli yetkazildi",
+        "error": "Muammo yuz berdi",
+        "btnPop" : "Ok"
+    },
+    "hero" : {
+        "text": "Har narsada mukammallik",
+        "title": "Discover Invest",
+        "projects": "Loyihalar",
+        "contact": "Kontaktlar"
+    },
+    "about" : {
+        "desc" : "Biz faqat loyihalar yaratib qolmaymiz, balki yangi imkoniyatlar yaratamiz. Davlat miqyosidagi ob'ektlarni qurish orqali biz kelajakni quramiz. Biz atrof-muhitga g'amxo'rlik qilamiz: kompaniya qurilish va binolar va infratuzilmani ishlatish bilan bog'liq ekologik jihatlar uchun to'liq javobgarlikni oladi.",
+        "employee" : "Xodimlar soni",
+        "complex": "Yashash majmualari",
+        "market" : "14 yildan beri bozorda",
+        "about" : "Biz haqimizda",
+        "hospital": "Kasxonalar",
+        "special": "Maxsus texnikalar qayta tiklandi",
+        "projects": "Loyihalar"
+    },
+    "advantages" : {
+        "text1": "Bizning",
+        "text2": "afzalliklarimiz",
+        "icon1": {
+            "text": "Bizning jamoamiz",
+            "desc": "Kompaniya tajribali xodimlarni tanlov asosida ishga qabul qiladi"
+        },
+        "icon2": {
+            "text": "Ijobiy mijoz yondashuvi",
+            "desc": "Saytimiz orqali qilgan ajoyib ishimizni ko'rib, mijozlarimizning ishonchini qozonganligimizga amin bo'lasiz"
+        },
+        "icon3": {
+            "text": "Barcha ishlarga kafolat",
+            "desc": "Biz vazifamizni ehtiyotkorlik bilan bajarib, kompaniyamizga ishonchingizni qadrlaymiz. Barcha xatolar aniq tuzatildi"
+        }
+    },
+    "team" : {
+        "text1": "Bizning",
+        "text2": "jamoamiz",
+        "person1": {
+            "name": "Norbekov Shavkat Bo'riboy o'g'li",
+            "job" : "Qurilish maydoni boshqaruvchisi"
+        },
+        "person2": {
+            "name": "Boltaev Obidjon Uchqin o'g'li",
+            "job" : "Loyiha menejeri"
+        },
+        "person3": {
+            "name": "Artiqbaev Saxobiddin Doniyor o'g'li",
+            "job" : "Loyiha menejeri"
+        },
+        "person4": {
+            "name": "Kuziev Jakhongir Bakhodirovich",
+            "job" : "Qurilish maydoni boshqaruvchisi"
+        },
+        "person5": {
+            "name": "Xusanov Akromjon Turaxon o'g'li",
+            "job" : "Loyiha menejeri"
+        }
+    },
+    "project" : {
+        "text1" : "Bizning",
+        "text2" : "loyihalarimiz",
+        "btn": "Barcha loyihalar",
+        "card1": {
+            "text": "Magic City",
+            "desc": "Bu katta ahamiyatga ega ijtimoiy loyiha. Toshkentdagi madaniyat va ko'ngilochar klaster yangi diqqatga sazovor joylardan biri."
+        },
+        "card2": {
+            "text": "Gardens Residence",
+            "desc": "O'zbekiston aholisi uchun qulaylik yaratish uchun yaratilgan ko'p funktsiyali turar joy majmuasi."
+        },
+        "card3": {
+            "text": "Fonon",
+            "desc": "Poytaxtning markazidagi ulkan turar joy."
+        },
+        "card4": {
+            "text": "Invento",
+            "desc": "Fonon 2020 yilda Italiya uslubida qurilgan O'zbekistondagi zargarlik zavodidir. Fonon Markaziy Osiyoda faqatgina qimmatbaho metallar bilan zargarlik buyumlarini ishlab chiqaradigan yirik korxona,"
+        },
+        "card5": {
+            "text": "Prezident Maktabi",
+            "desc": "Toshkent City xalqaro biznes markazida joylashgan xalqaro bolalar bog'chasi va maktab."
+        },
+        "card6": {
+            "text": "Bulvar",
+            "desc": "Bu xalqaro darajadagi bilim beruvchi ta'lim muassasasi"
+        }
+    },
+    "company" : {
+        "text1" : "Kompaniya",
+        "text2" : "yangiliklari",
+        "newsBtn" : "Batafsil",
+        "related": "Bog'liq yangiliklar",
+        "news1" : {
+            "title": "Qurilish loyiha boshqaruvchisi kim?",
+            "desc": "Discover Invest bir necha qurilish loyiha menejerlariga ega. Bu ko'chmas mulkni muvaffaqiyatli sotishga mas'ul mutaxassis. U butun jarayonni rejalashtirish va loyiha hujjatlarini tasdiqlash bosqichidan to binoni topshirishgacha boshqaradi va loyiha tugagandan keyingi qo'llab-quvvatlashni amalga oshiradi."
+
+        },
+        "news2" : {
+            "title": "Discover Invest barchani Yangi 2023 Yil bilan tabriklaydi!",
+            "desc": "Discover Invest bir necha qurilish loyiha menejerlariga ega. Bu ko'chmas mulkni muvaffaqiyatli sotishga mas'ul mutaxassis. U butun jarayonni rejalashtirish va loyiha hujjatlarini tasdiqlash bosqichidan to binoni topshirishgacha boshqaradi va loyiha tugagandan keyingi qo'llab-quvvatlashni amalga oshiradi."
+        },
+        "news3" : {
+            "title": "O'ZBEKISTON RESPUBLIKASI KONSTITUTSIYASI QABUL QILINGAN KUN",
+            "desc": "Discover Invest bir necha qurilish loyiha menejerlariga ega. Bu ko'chmas mulkni muvaffaqiyatli sotishga mas'ul mutaxassis. U butun jarayonni rejalashtirish va loyiha hujjatlarini tasdiqlash bosqichidan to binoni topshirishgacha boshqaradi va loyiha tugagandan keyingi qo'llab-quvvatlashni amalga oshiradi."
+        },
+        "news4" : {
+            "title": "Biz sizni Discover Invest ning keng ko'lamli qurilish ob'ektlari bilan tanishtirishda davom etamiz.",
+            "desc": "Discover Invest bir necha qurilish loyiha menejerlariga ega. Bu ko'chmas mulkni muvaffaqiyatli sotishga mas'ul mutaxassis. U butun jarayonni rejalashtirish va loyiha hujjatlarini tasdiqlash bosqichidan to binoni topshirishgacha boshqaradi va loyiha tugagandan keyingi qo'llab-quvvatlashni amalga oshiradi."
+        }
+    },
+    "footer" : {
+        "text": "Kontaktlar",
+        "address" : {
+            "text": "Manzil",
+            "desc" : "O'zbekiston, Toshkent, Alisher Navoiy nomidagi O'zbekiston Milliy bog'i"
+        },
+        "phone" : {
+            "text": "Telefon"
+        },
+        "hours" : {
+            "text": "Ish vaqti",
+            "desc": "09:00 - 18:00 Dushanba-Shanba"
+        },
+        "form": {
+            "label1" : "Telefon raqami",
+            "label2" : "Ism",
+            "place": "Ismingiz qanday?",
+            "btn": "Aloqa"
+        },
+        "copy": "© 2022 Discover Invest. Barcha huquqlar himoyalangan."
+    },
+    "aboutPage": {
+        "text": "KOMPANIYA HAQIDA",
+        "desc": "Biz faqat loyihalar yaratib qolmaymiz, balki yangi imkoniyatlar yaratamiz. Davlat miqyosidagi ob'ektlarni qurish orqali biz kelajakni quramiz. Biz atrof-muhitga g'amxo'rlik qilamiz:",
+        "download" : "Yuklab olish",
+        "company" : {
+            "text1": "Kompaniya",
+            "text2": "haqida",
+            "desc": "Biz faqat loyihalar yaratib qolmaymiz, balki yangi imkoniyatlar yaratamiz. Davlat miqyosidagi ob'ektlarni qurish orqali biz kelajakni quramiz. Biz atrof-muhitga g'amxo'rlik qilamiz: kompaniya qurilish va binolar va infratuzilmani ishlatish bilan bog'liq ekologik jihatlar uchun to'liq javobgarlikni oladi."
+        }
+    },
+    "mission" : {
+        "card1": {
+            "text": "Bizning missiyamiz",
+            "desc": "Bizning missiyamiz Biz O'zbekistonda qurilishda eng ilg'or texnologiyalarni joriy qilamiz va zamonaviy dizayn yechimlarini yaratamiz. Birinchi darajali ishchilarga tayangan holda, biz ko'p yillar davomida arzon uy-joy va sanoat binolarini quramiz."
+        },
+        "card2": {
+            "text": "Bizning Vizyon",
+            "desc": "Markaziy Osiyoda eng yaxshi loyiha kompaniyasini yaratish, bu imkoniyatlarni taqdim etadi: - Jamiyatga - ishda yuqori standartlarni o'rnatish orqali odamlarning hayot darajasini yaxshilash. - Mijozlarga - hamkorlik faoliyatidan zavqlanish, uzoq muddatli va ochiq munosabatlar o'rnatish. - Xodimlarga - doimiy o'sish,"
+        },
+        "card3": {
+            "text": "Bizning qiymatlarimiz",
+            "desc": "Bizning qiymatlarimiz (LLC) 'Discover Invest' 2008 yilda tashkil topganidan beri biz faqat professional bilan ishlaymiz. Mutaxassislarimiz ilg'or texnologiyalar va innovatsion yondashuvni qo'llaydilar. Qachon va qayerda ishlamasligimizdan qat'i nazar, biz o'z qadriyatlarimizga sodiq qolamiz: xodimlar va xavfsizlik, doimiy takomillashtirish va mijozlarimiz ishonchi."
+        }
+    },
+    "contact": {
+        "text": "KONTAKTLAR",
+        "desc": "Hozirgi formani to'ldirib, o'z kontaktlaringizni qoldiring va biz siz bilan imkon qadar tezroq bog'lanamiz.",
+        "main1": "Qanday yordam",
+        "main2": "berishimiz mumkin?",
+        "detail": "Hozirgi formani to'ldirib, o'z kontaktlaringizni qoldiring va biz siz bilan imkon qadar tezroq bog'lanamiz.",
+        "comment": "Bu yerda izoh qoldiring"
+    }
 }

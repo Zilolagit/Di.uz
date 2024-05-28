@@ -302,7 +302,7 @@ export default {
   <!-- Projects End -->
 
     <!-- Team Start -->
-    <section class="company">
+    <section class="company" id="news">
     <div class="container">
       <div class="company__title">
         <div class="title" data-aos="fade-right">
@@ -325,49 +325,16 @@ export default {
             }
           }" :spaceBetween="30" :loop="true" :autoplay="{ delay: 2500, disableOnInteraction: false, }" :modules="modules"
         class="mySwiper">
-        <swiper-slide>
-            <div class="company__box" style="background-image: url(/n1.webp);">
+        <swiper-slide v-for="slide in 4" :key="slide">
+            <div class="company__box" :style="`background-image: url(/n${slide}.webp);`">
               <p class="company__date">2023-01-27</p>
               <div class="company__bottom">
-                <h5>{{ $t('company.news1.title') }}</h5>
-                <RouterLink to="/">
+                <h5>{{ $t(`company.news${slide}.title`) }}</h5>
+                <RouterLink :to="`/blog/${slide}`">
                   {{ $t('company.newsBtn') }}
                 </RouterLink>
               </div>
             </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="company__box" style="background-image: url(/n2.webp);">
-            <p class="company__date">2023-01-27</p>
-            <div class="company__bottom">
-              <h5>{{ $t('company.news2.title') }}</h5>
-              <RouterLink to="/">
-                {{ $t('company.newsBtn') }}
-              </RouterLink>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="company__box" style="background-image: url(/n3.webp);">
-            <p class="company__date">2023-01-27</p>
-            <div class="company__bottom">
-              <h5>{{ $t('company.news3.title') }}</h5>
-              <RouterLink to="/">
-                {{ $t('company.newsBtn') }}
-              </RouterLink>
-            </div>
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="company__box" style="background-image: url(/n4.webp);">
-            <p class="company__date">2023-01-27</p>
-            <div class="company__bottom">
-              <h5>{{ $t('company.news4.title') }}</h5>
-              <RouterLink to="/">
-                {{ $t('company.newsBtn') }}
-              </RouterLink>
-            </div>
-          </div>
         </swiper-slide>
       </swiper>
     </div>
@@ -753,7 +720,7 @@ $yellow: #fab448;
   overflow: hidden;
   background-image: url(/bg-news.svg);
   padding-top: 40px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;

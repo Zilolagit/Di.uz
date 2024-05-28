@@ -54,7 +54,6 @@
 
 <script>
 
-import { ref } from 'vue';
 import axios from "axios";
 
 export default {
@@ -64,7 +63,7 @@ export default {
             phone_number: "",
             choice: this.$t('phone.department.option1'),
             token: "7069003625:AAGAQJns8zC96OqRSQIwC8Ewj1efbWCnIW0",
-            chat_id: ref("237282713"),
+            chat_id: "237282713",
             isError: false,
             isPop: false,
         }
