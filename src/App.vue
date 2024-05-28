@@ -1,4 +1,9 @@
 <template>
+
+<div class="loader">
+  <lottie-player class="anima" src="https://lottie.host/81d86dc7-e45c-4e24-81c9-a10cd55dc6a4/kZ2z3wZimH.json" background="transparent" speed="1" loop="" autoplay=""></lottie-player>
+</div>
+
   <!-- Header Start -->
   <header class="header">
     <div class="container">
@@ -291,10 +296,18 @@ export default {
   },
   mounted() {
     Aos.init();
+    document.onreadystatechange = () => {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector(".loader").style.visibility = "visible";
+    } else {
+        document.querySelector(".loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
   }
 };
 </script>
-
 <style lang="scss">
 $yellow: #fab448;
 $black: #262524;
@@ -328,6 +341,21 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $yellow;
+  z-index: 999999;
+  .anima {
+    width: 300px;
+  }
 }
 
 .offcanvas {
