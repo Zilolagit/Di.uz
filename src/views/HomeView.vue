@@ -41,8 +41,12 @@ export default {
           <p>{{ $t('hero.text') }}</p>
         </div>
         <div class="hero__buttons">
+        <a href="#projects">
           <button class="button button-bg">{{ $t('hero.projects') }}</button>
+        </a>
+        <RouterLink to="/contact">
           <button class="button">{{ $t('hero.contact') }}</button>
+        </RouterLink>
         </div>
       </div>
     </div>
@@ -292,17 +296,12 @@ export default {
           </div>
         </div>
       </div>
-      <div class="project__btn text-center">
-        <RouterLink>
-          <button class="button button-black">{{ $t('project.btn') }}</button>
-        </RouterLink>
-      </div>
     </div>
   </section>
   <!-- Projects End -->
 
     <!-- Team Start -->
-    <section class="company" id="news">
+  <section class="company" id="news">
     <div class="container">
       <div class="company__title">
         <div class="title" data-aos="fade-right">
@@ -331,7 +330,7 @@ export default {
               <div class="company__bottom">
                 <h5>{{ $t(`company.news${slide}.title`) }}</h5>
                 <RouterLink :to="`/blog/${slide}`">
-                  {{ $t('company.newsBtn') }}
+                    {{ $t('company.newsBtn') }}
                 </RouterLink>
               </div>
             </div>
